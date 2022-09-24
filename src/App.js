@@ -17,6 +17,7 @@ const App=()=> {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
+          <Route path='/booking' element={<Home/>}></Route>
           {/* <Route path='/register' element={<Register/>}></Route>
           <Route path='/signin' element={<SignIn/>}></Route> */}
           <Route path='/hotels' element={<HotelList/>}></Route>
